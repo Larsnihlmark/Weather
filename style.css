@@ -5,6 +5,13 @@
 body{
     background-color: #293251;
 }
+.header{
+    padding: 5em;
+    margin: auto;
+    display: block;
+    text-align: center;
+    color: #25ebeb;
+}
 
 .container{
     width: 300px;    
@@ -14,7 +21,7 @@ body{
     margin: 0 auto;
     
     border-radius: 10px;
-    padding-bottom : 50px;
+    padding-bottom : 20px;
 }
 
 .app-title{

@@ -4,7 +4,7 @@ const tempElement = document.querySelector(".temperature-value p");
 const descElement = document.querySelector(".temperature-description p");
 const locationElement = document.querySelector(".location p");
 const notifactionElement = document.querySelector(".notification p");
-
+const timeDateElement = document.querySelector(".timeDate");
 //Data
 
 const weather = {};
@@ -93,3 +93,15 @@ tempElement.addEventListener("click", function(){
         weather.temperature.unit = "celsius";
     }
 });
+
+//Date and Time
+
+var currentdate = new Date(); 
+var datetime = currentdate.getDate() + "/"
+                + (currentdate.getMonth()+1)  + "/" 
+                + currentdate.getFullYear() + " @ "  
+                + currentdate.getHours() + ":"  
+                + currentdate.getMinutes() + ":" 
+                + currentdate.getSeconds();
+                
+timeDateElement.innerHTML = datetime;
