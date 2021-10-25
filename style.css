@@ -5,6 +5,7 @@
 body{
     background-color: #293251;
 }
+
 .header{
     padding: 5em;
     margin: auto;
@@ -13,17 +14,54 @@ body{
     color: #25ebeb;
 }
 
-.container{
+.allBlock{
+    
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 5em;
+    column-gap: 10px;
+    justify-content: center
+}
+
+.container-center{
     width: 300px;    
     background-color: #FFF;
-    
-    display: block;
     margin: 0 auto;
-    
     border-radius: 10px;
     padding-bottom : 20px;
 }
+
+.container-left{
+    width: 300px;    
+    background-color: #FFF;  
+    margin: 0 auto;
+    border-radius: 10px;
+    padding-bottom : 20px;
+}
+
+.container-right{
+    width: 300px;    
+    background-color: #FFF;
+    margin: 0 auto;
+    border-radius: 10px;
+    padding-bottom : 20px;
+}
+
 .timeDate{
+    text-align: center;
+    padding: 15px;
+    margin: 0 auto;
+    font-size: 1.7em;
+    color:  #f6a71c;
+}
+.timeDate-right{
+    text-align: center;
+    padding: 15px;
+    margin: 0 auto;
+    font-size: 1.7em;
+    color:  #f6a71c;
+}
+.timeDate-left{
     text-align: center;
     padding: 15px;
     margin: 0 auto;
@@ -69,8 +107,24 @@ body{
     width: 300px;
     height: 128px;
 }
+.weather-icon-right{
+    width: 300px;
+    height: 128px;
+}
+.weather-icon-left{
+    width: 300px;
+    height: 128px;
+}
 
 .weather-icon img{
+    display: block;
+    margin: 0 auto;
+}
+.weather-icon-right img{
+    display: block;
+    margin: 0 auto;
+}
+.weather-icon-left img{
     display: block;
     margin: 0 auto;
 }
@@ -79,8 +133,32 @@ body{
     width: 300px;
     height:60px;
 }
+.temperature-value-right{
+    width: 300px;
+    height:60px;
+}
+.temperature-value-left{
+    width: 300px;
+    height:60px;
+}
 
 .temperature-value p{
+    padding: 0;
+    margin: 0;
+    color: #293251;
+    font-size: 4em;
+    text-align: center;
+    cursor: pointer;
+}
+.temperature-value-right p{
+    padding: 0;
+    margin: 0;
+    color: #293251;
+    font-size: 4em;
+    text-align: center;
+    cursor: pointer;
+}
+.temperature-value-left p{
     padding: 0;
     margin: 0;
     color: #293251;
@@ -97,6 +175,14 @@ body{
     color: #293251;
     font-size: 0.5em;
 }
+.temperature-value-right span{
+    color: #293251;
+    font-size: 0.5em;
+}
+.temperature-value-left span{
+    color: #293251;
+    font-size: 0.5em;
+}
 
 /* .temperature-description{
     
@@ -109,12 +195,40 @@ body{
     text-align: center;
     font-size: 1.2em;
 }
+.temperature-description-right p{
+    padding: 8px;
+    margin: 0;
+    color: #293251;
+    text-align: center;
+    font-size: 1.2em;
+}
+.temperature-description-left p{
+    padding: 8px;
+    margin: 0;
+    color: #293251;
+    text-align: center;
+    font-size: 1.2em;
+}
 
 /* .location{
     
 } */
 
 .location p{
+    margin: 0;
+    padding: 0;
+    color: #293251;
+    text-align: center;
+    font-size: 0.8em;
+}
+.location-right p{
+    margin: 0;
+    padding: 0;
+    color: #293251;
+    text-align: center;
+    font-size: 0.8em;
+}
+.location-left p{
     margin: 0;
     padding: 0;
     color: #293251;

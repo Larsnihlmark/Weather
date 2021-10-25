@@ -6,6 +6,7 @@ const locationElement = document.querySelector(".location p");
 const notifactionElement = document.querySelector(".notification p");
 
 
+
 const weather = {};
 
 weather.temperature = {
@@ -47,7 +48,7 @@ function getWeather(latitude, longitude){
     fetch(api)
         .then(function(response){
             let data = response.json();
-            console.log(data);
+            /* console.log(data); */
             return data;
         })
         .then(function(data){
@@ -56,7 +57,7 @@ function getWeather(latitude, longitude){
             weather.iconId = data.weather[0].icon;
             weather.city = data.name;
             weather.country = data.sys.country;
-            console.log(weather);
+            /* console.log(weather); */
         })
         .then(function(){
             displayWeather();
