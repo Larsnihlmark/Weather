@@ -1,6 +1,36 @@
-<h1>#Weather</h1>
+ # Weather
 
 
-Javascript Weather
+Own use for my demo website
 
-Test it out! [demo]
+# [Demo]
+
+
+
+### Coding text style 
+
+Example on text
+
+```
+<!-- Modal -->
+```
+
+## Deployment
+
+FTP-program and your own webbhotel service
+
+## Built With
+
+* [javascript]
+* [html]
+* [css]
+* API
+
+
+## Authors
+
+* **Lars Nihlmark** - *Initial work* - [larsnihlmark](https://github.com/Larsnihlmark)
+
+
+## 
+
