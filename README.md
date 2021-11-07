@@ -3,7 +3,7 @@
 
 Own use for my demo website
 
-# [Demo](https://larsnihlmark.github.io/Weather/)
+# [Demo](https://larsnihlmark.github.io/Weather-P/)
 
 Real time location weather reports and time. London and Bangkok other static calls
 
