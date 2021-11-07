@@ -3,7 +3,7 @@
 
 Own use for my demo website
 
-# [Demo]
+# [Demo] (https://larsnihlmark.github.io/Weather/)
 
 Real time location weather reports and time. London and Bangkok other static calls
 
@@ -15,9 +15,9 @@ API
 Openweathermap free api to use for gathering weather data
 ```
 
-## Deployment
+## How TO use
 
-FTP-program and your own webbhotel service
+
 
 ## Built With
 
