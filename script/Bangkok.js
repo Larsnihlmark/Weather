@@ -26,7 +26,7 @@ function showErrorRight(error){
 
 //GET API
  function getWeatherLeft(){
-    let api = `http://api.openweathermap.org/data/2.5/weather?&appid=${key}&lon=${lonBangkok}&lat=${latBangkok}`;
+    let api = `https://api.openweathermap.org/data/2.5/weather?&appid=${key}&lon=${lonBangkok}&lat=${latBangkok}`;
     
 
     fetch(api)
